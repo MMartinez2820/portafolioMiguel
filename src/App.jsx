@@ -4,7 +4,7 @@ import './App.css'
 //const btn = document.getElementById('button');
 import { HashRouter, Route, Routes,  } from 'react-router-dom';
 import Home from './components/Home';
-import SliderLateral from './components/SliderLateral';
+//import SliderLateral from './components/SliderLateral';
 import Email from './components/email';
 
 function App() {
