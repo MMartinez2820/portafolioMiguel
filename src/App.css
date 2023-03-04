@@ -171,10 +171,21 @@ body{
   margin: 80px 0;
   box-shadow: 0 50px 20px 2px rgb(89, 88, 88);
 }
+.container-slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .slider{
-  width: 100%;
+  width: 95%;
   height: 600px;
+ 
+}
+@media(max-width: 500px){
+  .slider{
+    height: 200px;
+  }
 }
 
 .container-title-project h2 {
@@ -183,8 +194,13 @@ body{
   
 }
 
+
 .image-slider-porfolio{
+  height: 100%;
   width: 100%;
+  object-fit: contain;
+  
+
 }
 
 /* ////////// footer */
@@ -199,16 +215,23 @@ footer {
   margin: 70px 0 0 0;
   color: antiquewhite;
 }
+@media(max-width: 500px){
+  footer{
+    height: auto;
+    flex-direction: column;
+  }
+}
 
 .images-footer{
   position: absolute;
   bottom: 20px;
   right: 20px;
- 
+  
 }
 .images-footer img {
   width: 60px;
   cursor: pointer;
+
 }
 
 /* ///////// Contact //////// */

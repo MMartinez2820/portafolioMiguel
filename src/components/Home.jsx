@@ -112,9 +112,9 @@ const Home = () => {
         <div className="container-title-project">
           <h2 className="proj">Project</h2>
         </div>
-        <div className="d-flex justify-content-center w-100%">
+        <div className="container-slider">
           <Carousel className="slider">
-            <Carousel.Item interval={1000}>
+            <Carousel.Item className="container-image-slider" interval={1000}>
               <img className="image-slider-porfolio" src={proj02} alt="First slide" />
               <Carousel.Caption>
                 <h3>First slide label</h3>
@@ -123,14 +123,14 @@ const Home = () => {
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={500}>
+            <Carousel.Item className="container-image-slider" interval={500}>
               <img className="image-slider-porfolio" src={proj01} alt="Second slide" />
               <Carousel.Caption>
                 <h3>Second slide label</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="container-image-slider">
               <img className="image-slider-porfolio" src={proj05} alt="Third slide" />
               <Carousel.Caption>
                 <h3>Third slide label</h3>
@@ -140,7 +140,7 @@ const Home = () => {
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="container-image-slider">
               <img className="image-slider-porfolio" src={proj04} alt="Third slide" />
               <Carousel.Caption>
                 <h3>Third slide label</h3>
@@ -150,7 +150,7 @@ const Home = () => {
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className="container-image-slider">
               <img className="image-slider-porfolio" src={proj03} alt="Third slide" />
               <Carousel.Caption>
                 <h3>Third slide label</h3>
