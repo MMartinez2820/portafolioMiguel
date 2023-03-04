@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
 import miguel from "../assets/img/mifot3.png";
 import antonio from "../assets/img/llaves.png";
 import mayor from "../assets/img/mayor-menor.png";
